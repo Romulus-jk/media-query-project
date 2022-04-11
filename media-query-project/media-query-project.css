@@ -48,12 +48,7 @@ h1{
     font-size: .7em;
     /*justify-content: space-between;*/
 }
-.bottom{
-    display: flex;
-    justify-content: space-between;
-    align-content: center;
-    outline: auto;
-}
+
 .bottom {
     display: flex;
     justify-content: space-between;
