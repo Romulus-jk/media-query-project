@@ -23,8 +23,6 @@ nav ul a{
     justify-content: center;
     text-decoration: underline;
     padding: .5em;
-
-
 }
 .nav-menu{
     padding-right: 10px;
@@ -128,7 +126,23 @@ footer {
     height: 10px;
     width: 10px;
 }
+.slidein {
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: 3;
+    animation-direction: alternate;
+}
+@keyframes slidein {
+    from {
+        margin-left:100%;
+        width:300%
+    }
 
+    to {
+        margin-left:0%;
+        width:100%;
+    }
+}
 @media screen and (max-width: 350px) {
 
     .hidden-on-desktop{
