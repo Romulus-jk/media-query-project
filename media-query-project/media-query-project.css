@@ -101,7 +101,7 @@ footer {
     align-content: space-between;
 }
 .fa {
-    padding: 10px;
+    padding: 8px;
     /*font-size: 10px;*/
     /*width: 10px;*/
     text-align: center;
@@ -122,6 +122,7 @@ footer {
     color: black;
     height: 10px;
     width: 10px;
+    /*outline: auto;*/
 }
 .fa-instagram {
     color: black;
