@@ -26,3 +26,26 @@ h1{
 /*    align-items: center;*/
 /*    justify-content: center;*/
 /*}*/
+.new-main{
+    display: flex;
+}
+.main {
+    flex-grow: 3;
+
+}
+.sub-section{
+    font-style: italic;
+    flex-grow: 1;
+
+}
+.footer {
+    display: flex;
+    padding-top: 150px;
+    padding-left: 20px;
+}
+.footer1{
+    align-self: end;
+}
+#social-media-links{
+
+}
