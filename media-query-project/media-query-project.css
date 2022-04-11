@@ -30,13 +30,16 @@ h1{
     display: flex;
 }
 .main {
-    flex-grow: 3;
-
+    /*flex-grow: 3;*/
+    padding: 20px;
 }
 .sub-section{
     font-style: italic;
-    flex-grow: 1;
-
+    /*flex-grow: 1;*/
+    /*float: right;*/
+    flex-wrap: wrap;
+    width: 600px;
+    padding: 20px;
 }
 .footer {
     display: flex;
@@ -45,7 +48,8 @@ h1{
     font-size: .7em;
 }
 .footer1{
-    align-self: end;
+    display: flex;
+
 }
 #social-media-links{
 
