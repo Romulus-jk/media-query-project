@@ -46,7 +46,13 @@ h1{
     padding-top: 150px;
     padding-left: 20px;
     font-size: .7em;
-    justify-content: space-between}
+    outline: auto;
+}
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    outline: auto;
+}
 /*.footer2{*/
 /*    display: flex;*/
 /*    justify-content: space-between;*/
