@@ -52,6 +52,12 @@ h1{
     display: flex;
     justify-content: space-between;
     align-content: center;
+    outline: auto;
+}
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    outline: auto;
 }
 /*.footer2{*/
 /*    display: flex;*/
