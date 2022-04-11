@@ -120,7 +120,7 @@ h1{
         border: lightgrey solid 2px;
     }
     body{
-        display: grid;
+        display: block;
         grid-template: repeat(7, auto) / 339px;
         grid-row-gap: 1em;
         font-family: 'Roboto Condensed', sans-serif;
@@ -157,9 +157,11 @@ h1{
         align-items: center;
     }
     .header-img{
-        /*display: flex;*/
+        display: flex;
+        justify-content: space-between;
         height: 224px;
         width: 339px;
+        outline: auto;
     }
     /*.nav-menu{*/
     /*    padding: 10px 10px;*/
