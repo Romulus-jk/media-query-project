@@ -5,6 +5,7 @@
     <title>Media Queries</title>
     <link rel="stylesheet" href="media-query-project.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Alegreya SC' rel='stylesheet'>
 
 </head>
 <body>
@@ -26,7 +27,7 @@
     <hr>
 <div class="header-img">
 <!--    <img src="https://post.healthline.com/wp-content/uploads/2020/08/safe-to-eat-coffee-beans-1200x628-facebook-1200x628.jpg" alt="" id="img">-->
-    <div><iframe allow="fullscreen" frameBorder="0" height="400" src="https://giphy.com/embed/h0zcvmuXQXF01dKWKD/video" width="700"></iframe></div>
+    <div><iframe id="gif" allow="fullscreen" frameBorder="0" src="https://giphy.com/embed/h0zcvmuXQXF01dKWKD/video"></iframe></div>
 </div>
     <hr>
 <div class="new-main" id="newMain">
@@ -43,16 +44,16 @@
         <form>
             <p class="join slidein">Join the Club</p>
 <!--            <hr class="slidein">-->
-            <label for="fname">First Name</label>
-            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            <label class="labelBox" for="fname">First Name</label>
+            <input class="inputBox" type="text" id="fname" name="firstname" placeholder="Your name..">
 
-            <label for="lname">Last Name</label>
-            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+            <label class="labelBox"  for="lname">Last Name</label>
+            <input class="inputBox" type="text" id="lname" name="lastname" placeholder="Your last name..">
 
-            <label for="subject">Subject</label>
-            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+            <label class="labelBox"  for="subject">Subject</label>
+            <textarea class="inputBox" id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
 
-            <input type="submit" value="Submit">
+            <input id="submit" class="submitBtn" type="submit" value="Submit">
 
         </form>
     </div>

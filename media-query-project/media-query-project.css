@@ -1,12 +1,13 @@
 *{
     background: #f8f0e3;
 }
-.skip{
-    text-decoration: none;
-    color: white;
-}
+/*.skip{*/
+/*    text-decoration: none;*/
+/*    color: white;*/
+
+/*}*/
 h1{
-    font-family: sans-serif;
+    font-family: 'Alegreya SC';
     font-size: 2.4em;
     padding-left: 10px;
     /*align-items: end;*/
@@ -20,6 +21,7 @@ hr{
     display: flex;
     justify-content: space-between;
     align-items: end;
+    font-family: 'Alegreya SC';
 }
 
 nav ul{
@@ -142,6 +144,7 @@ footer {
     animation-name: slidein;
     animation-iteration-count: 3;
     animation-direction: alternate;
+
 }
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
@@ -165,11 +168,16 @@ input[type=submit] {
     border: none;
     /*border-radius: 4px;*/
     cursor: pointer;
+    border-radius: 5%;
 }
 
 /* When moving the mouse over the submit button, add a darker green color */
+
 input[type=submit]:hover {
-    background-color: gray;
+    background-color: red;
+    transform: scale(1.1) translate(6px);
+    box-shadow: 0 0 2px 3px #f65252;
+    border-radius: 5%;
 }
 
 /* Add a background color and some padding around the form */
@@ -182,8 +190,27 @@ input[type=submit]:hover {
     font-family: sans-serif;
     font-size: 2.4em;
     padding-bottom: 0em;
+    font-family: 'Alegreya SC';
     /*text-decoration: underline;*/
 }
+#gif{
+    /*width: 100%;*/
+    width: 700px;
+    height: 400px;
+}
+.hidden-on-desktop a{
+    visibility: hidden;
+}
+
+
+.inputBox{
+    box-shadow:inset 2px 2px 1px 1px gray;
+    background: #efe6df;
+    opacity: 80%;
+    margin-top: 10px;
+}
+
+
 /*hr*/
 /*{*/
 /*    margin-top: 0em;*/
@@ -219,6 +246,7 @@ input[type=submit]:hover {
         color: black;
         font-size: .8em;
         border: lightgrey solid 2px;
+        visibility: visible;
     }
     body{
         display: block;
@@ -307,6 +335,12 @@ input[type=submit]:hover {
         flex-direction: row;
         justify-content: space-between;
     }
+    #gif{
+
+        max-width: 400px;
+        height: auto;
+    }
+
 
 }
 
